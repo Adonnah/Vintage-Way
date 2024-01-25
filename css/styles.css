@@ -106,61 +106,61 @@ h5 {
 .foto1 {
     width: 18.75em;
     border-radius: 0.6250em;
-    border: 5px solid #ffe700;
-    margin-right: 20px;
+    border: 0.3125em solid #ffe700;
+    margin-right: 1.25em;
     margin: 0.40em;
     padding: 0.40em;
 }
 
 .foto2 {
     width: 18.75em;
-    border-radius: 10px;
-    border: 5px solid #7368ea;
-    margin-right: 20px;
+    border-radius: 0.625em;
+    border: 0.3125em solid #7368ea;
+    margin-right: 1.25em;
     margin: 0.40em;
     padding: 0.40em;
 }
 
 .foto4 {
     width: 18.75em;
-    border-radius: 10px;
-    border: 5px solid blue;
-    margin-right: 20px;
+    border-radius: 0.625em;
+    border: 0.3125em solid blue;
+    margin-right: 1.25em;
     margin: 0.40em;
     padding: 0.40em;
 }
 
 .foto5 {
     width: 18.75em;
-    border-radius: 10px;
-    border: 5px solid #d5f783;
-    margin-right: 20px;
+    border-radius: 0.625em;
+    border: 0.3125em solid #d5f783;
+    margin-right: 1.25em;
     margin: 0.40em;
     padding: 0.40em;
 }
 
 .foto6 {
     width: 18.75em;
-    border-radius: 10px;
-    border: 5px solid #f28705;
-    margin-right: 20px;
+    border-radius: 0.625em;
+    border: 0.3125em solid #f28705;
+    margin-right: 1.25em;
     margin: 0.40em;
     padding: 0.40em;
 }
 
 img {
     width: 5.75em;
-    border-radius: 8px;
-    margin-right: 14px;
+    border-radius: 0.5em;
+    margin-right: 0.875em;
     margin: 0.30em;
     padding: 0.30em;
 }
 
 .next img {
     width: 8.05em;
-    border-radius: 10px;
-    margin-right: 10px;
-    border: 5px solid #9acd32;
+    border-radius: 0.625em;
+    margin-right: 0.625em;
+    border: 0.3125em solid #9acd32;
 }
 .next {
     display: flex;
@@ -192,7 +192,7 @@ img {
 
 
 footer h6 {
-    border-radius: 8px;
+    border-radius: 0.5em;
     background-color: #7de2e7;
     padding: 0.625em;
     text-align: center;
@@ -203,9 +203,9 @@ footer h6 {
 
 .store img {
     width: 4.50em;
-    border-radius: 4.50px;
-    border: 2px solid #d486b8;
-    margin-right: 2px;
+    border-radius: 0.28125em;
+    border: 0.125em solid #d486b8;
+    margin-right: 0.125em;
 }
 
 .store {
@@ -215,9 +215,9 @@ footer h6 {
 
 .store1 img {
     width: 14.50em;
-    border-radius: 6.50px;
-    border: 2px solid #d486b8;
-    margin-right: 3px;
+    border-radius: 0.40625em;
+    border: 0.125em solid #d486b8;
+    margin-right: 0.1875em;
 }
 
 .store1 {
@@ -234,5 +234,5 @@ footer h6 {
 
 .vt img {
     width: 8.35em;
-    border: 2px solid #d486b8;
+    border: 0.125em solid #d486b8;
 }
