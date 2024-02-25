@@ -28,6 +28,7 @@ header nav ul {
     gap: 0.5em;
     width: 100%;
     justify-content: space-around;
+    font-size: 0.90em;
 }
 
 header nav li {
@@ -40,16 +41,12 @@ header nav a {
     text-decoration: none;
 }
 
+
 .logo {
     margin: 0.30em;
-    padding: 0.30em;
-}
-
-.logo2 {
-    margin: 0.10em;
-    padding: 0.10em;
-    width: 6em;
-    border-radius: 0.4250em;
+    padding: 0.20em;
+    width: 10em;
+    border: none
 }
 
 main {
@@ -82,7 +79,7 @@ h3 {
 
 p {
     color: white;
-    margin: 0.30em;
+    margin: 0.40em;
     padding: 0.30em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
@@ -104,108 +101,89 @@ h5 {
 }
 
 .foto1 {
-    width: 18.75em;
+    width: 13.75em;
     border-radius: 0.6250em;
     border: 0.3125em solid #ffe700;
-    margin-right: 1.25em;
-    margin: 0.40em;
-    padding: 0.40em;
+    margin-right: 3.25em;
+    margin-left: 3.25em;
+    padding: 0.55em;
 }
 
 .foto2 {
-    width: 18.75em;
+    width: 13.75em;
     border-radius: 0.625em;
     border: 0.3125em solid #7368ea;
-    margin-right: 1.25em;
-    margin: 0.40em;
-    padding: 0.40em;
+    margin-right: 3.25em;
+    margin-left: 3.25em;
+    padding: 0.55em;
 }
 
 .foto4 {
-    width: 18.75em;
+    width: 13.75em;
     border-radius: 0.625em;
     border: 0.3125em solid blue;
-    margin-right: 1.25em;
-    margin: 0.40em;
-    padding: 0.40em;
+    margin-right: 3.25em;
+    margin-left: 3.25em;
+    padding: 0.55em;
 }
 
 .foto5 {
-    width: 18.75em;
+    width: 13.75em;
     border-radius: 0.625em;
     border: 0.3125em solid #d5f783;
-    margin-right: 1.25em;
-    margin: 0.40em;
-    padding: 0.40em;
+    margin-right: 3.25em;
+    margin-left: 3.25em;
+    padding: 0.55em;
 }
 
 .foto6 {
-    width: 18.75em;
+    width: 13.75em;
     border-radius: 0.625em;
     border: 0.3125em solid #f28705;
-    margin-right: 1.25em;
-    margin: 0.40em;
-    padding: 0.40em;
+    margin-right: 3.25em;
+    margin-left: 3.25em;
+    padding: 0.55em;
 }
 
 img {
-    width: 5.75em;
-    border-radius: 0.5em;
-    margin-right: 0.875em;
-    margin: 0.30em;
-    padding: 0.30em;
+    width: 13.75em;
+    border-radius: 0.7em;
+    margin-right: 3.25em;
+    margin-left: 3.25em;
+    padding: 0.55em;
+    border: 0.3125em solid #9acd32;
 }
 
 .next img {
-    width: 8.05em;
+    width: 7.40em;
     border-radius: 0.625em;
-    margin-right: 0.625em;
     border: 0.3125em solid #9acd32;
+    margin: 0.50em;
+    padding: 0.35em;
 }
 .next {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 1em 0 2em;
 }
 
-.vintageway {
-    margin: 0.30em;
-    padding: 0.30em;
-    justify-content: center;
-    display: flex;
-}
-
-.vintageway1 img {
-    margin: 0.30em;
-    padding: 0.30em;
-    justify-content: center;
-    display: flex;
-}    
-
-.vintageway2 img {
-    margin: 0.30em;
-    padding: 0.30em;
-    justify-content: center;
-    display: flex;
-}  
-
-
-footer h6 {
+footer {
     border-radius: 0.5em;
     background-color: #7de2e7;
-    padding: 0.625em;
+    padding: 0.25em;
     text-align: center;
-    margin-bottom: 3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #c4579c;
 }
 
 .store img {
-    width: 4.50em;
-    border-radius: 0.28125em;
-    border: 0.125em solid #d486b8;
-    margin-right: 0.125em;
+    width: 4.10em;
+    border-radius: 0.7em;
+    border: 0.3125em solid #d486b8;
+    margin: 0.25em;
+    padding: 0.35em;
+    height: 7em;
 }
 
 .store {
@@ -215,9 +193,10 @@ footer h6 {
 
 .store1 img {
     width: 14.50em;
-    border-radius: 0.40625em;
-    border: 0.125em solid #d486b8;
-    margin-right: 0.1875em;
+    border-radius: 0.7em;
+    border: 0.3125em solid #d486b8;
+    margin: 0.25em;
+    padding: 0.35em;
 }
 
 .store1 {
@@ -229,10 +208,19 @@ footer h6 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 1em 0 2em;
+    margin: 0 2em 0 2em;
 }
 
 .vt img {
-    width: 8.35em;
-    border: 0.125em solid #d486b8;
+    width: 7.45em;
+    border: 0.225em solid #d486b8;
+    margin: 0.50em;
+    padding: 0.35em;
+}
+
+.sizing {
+    width: 4em;
+    margin: 0.20em;
+    padding: 0.50em; 
+    border: none
 }
